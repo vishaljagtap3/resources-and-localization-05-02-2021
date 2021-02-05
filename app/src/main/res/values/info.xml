@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="advstyle" parent="android:TextAppearance.Holo.Medium">
+
+    </style>
+
+    <style name="mystyle">
+        <item name="android:textSize">@dimen/txt_size</item>
+        <item name="android:layout_width">@dimen/txt_width</item>
+        <item name="android:layout_height">@dimen/txt_height</item>
+        <item name="backgroundColor">@color/bg_color</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="mystyle.black">
+<!--        <item name="backgroundColor">#D0FFFD</item>-->
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <string name="welcome_message">Welcome!</string>
+    <bool name="is_password">true</bool>
+    <color name="bg_color">#FF00FF</color>
+    <integer name="comp_code">4590</integer>
+
+    <dimen name="txt_width">900px</dimen>
+    <dimen name="txt_height">130px</dimen>
+    <dimen name="txt_size" >80px</dimen>
+
+    <string-array name="cities">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+    </string-array>
+
+    <integer-array name="city_codes">
+        <item>411000</item>
+        <item>400000</item>
+        <item>600000</item>
+    </integer-array>
+
+</resources>
